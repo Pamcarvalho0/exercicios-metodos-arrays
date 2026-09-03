@@ -14,4 +14,4 @@ console.log(nomes.sort());
 
 // Exercício 4
 let numeros = [50, 10, 100, 5, 25, 1];
-console.log(numeros.sort());
+console.log(numeros.sort((a,b) => a - b));
